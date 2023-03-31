@@ -11,8 +11,8 @@ elif weight <= 10:
 else:
   cost_ground = weight * 4.75 + 20
 
-print(cost_ground)
-print("Ground Shipping Premium $", cost_ground_premium)
+print("Ground Shipping: $", cost_ground)
+print("Ground Shipping Premium: $", cost_ground_premium)
 
 # drone shipping
 
@@ -25,4 +25,4 @@ elif weight <= 10:
 else:
   cost_drone = weight * 14.25
 
-print(cost_drone)
+print("Drone Shipping: $", cost_drone)
